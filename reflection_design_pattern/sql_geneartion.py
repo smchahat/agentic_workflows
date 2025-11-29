@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 _ = load_dotenv()
 
-#module by andrewng
+#module by andrewng pesent on github
 import aisuite as ai
 
 client = ai.Client()
