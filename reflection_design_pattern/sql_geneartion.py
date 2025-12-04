@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 _ = load_dotenv()
 
 #module by andrewng pesent on github
+#can find this module similar to openAI() package
 import aisuite as ai
 
 client = ai.Client()
