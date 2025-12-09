@@ -56,6 +56,7 @@ Actually, what the tool looks like to the LLM is more complicated. Let's take a 
 
 Run the cell below to define your tool using the schema.
 """
+#this helps the LLM decide which tool to call when based on the description and func name
 tools = [{
     "type": "function",
     "function": {
